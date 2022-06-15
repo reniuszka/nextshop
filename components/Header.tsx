@@ -18,6 +18,9 @@ export const Header = () => {
             Details
           </a>
         </Link>
+        <Link href='/users'>
+          <a className={router.pathname == '/users' ? 'active' : ''}>Users</a>
+        </Link>
       </nav>
     </header>
   );
