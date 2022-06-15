@@ -15,9 +15,9 @@ import {
 } from '@heroicons/react/solid';
 import { Menu, Transition } from '@headlessui/react';
 
-function classNames(...classes) {
-  return classes.filter(Boolean).join(' ');
-}
+// function classNames(...classes) {
+//   return classes.filter(Boolean).join(' ');
+// }
 
 export default function Example() {
   return (
